@@ -1,0 +1,520 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/puzzleheadmy"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:weightSum="1"
+        android:layout_marginBottom="50sp"
+        
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/textViewhttp"
+            android:layout_width="120sp"
+            android:layout_height="20sp"
+            android:layout_weight="0.4"
+            android:background="@android:color/white"
+            android:singleLine="true"
+            android:paddingLeft="5sp"
+            android:textSize="15sp"
+            android:text="www." />
+
+        <Button
+            android:id="@+id/button_site"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_weight="0.1"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:text="Go"
+            />
+
+        <EditText
+            android:id="@+id/textView_google"
+            android:layout_width="120sp"
+            android:layout_height="20sp"
+            android:layout_weight="0.4"
+            android:background="@android:color/white"
+            android:singleLine="true"
+            android:paddingLeft="5sp"
+            android:hint="google search"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_google"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_weight="0.1"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:text="Go" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_sitelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+       
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="EDUCATION" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_newss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="NEWS" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="SPORTS" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="TRAVEL" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_socialmedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="SOCIAL MEDIA" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_socialmedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="EMAIL" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_buy_and_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="BUY AND SELL" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_buy_and_sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="SEARCH JOB" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="EXAM RESULT" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="VIDEO" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="MOVIES" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="SOFTWARE" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_software"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="GAMES" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="SONG AND RINGTONE" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#889992"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_amazing_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="AMAZING SITE" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_amazing_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      </LinearLayout>
+      
+     </LinearLayout>
+    </ScrollView>
+</LinearLayout>

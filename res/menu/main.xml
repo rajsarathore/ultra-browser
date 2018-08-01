@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ultrabrowser.MainActivity" >
+    <item
+        android:id="@+id/forward"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Forward"/>
+    
+    <item
+        android:id="@+id/prev"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Prev"/>
+    <item
+        android:id="@+id/AddBookMark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Add Bookmark"/>
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Home"/>
+       <item
+        android:id="@+id/download"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Download"/>
+       <item
+        android:id="@+id/bookmark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Bookmark"/>
+       <item
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="History"/>
+       <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Share"/>
+        <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

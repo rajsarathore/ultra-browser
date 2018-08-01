@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ultrabrowser.Bookmark" >
+
+     <item
+        android:id="@+id/bookmark_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Edit"/>
+       <item
+        android:id="@+id/bookmark_delete"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Delete"/>
+       
+
+</menu>

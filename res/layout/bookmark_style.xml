@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:weightSum="1"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/buttonfire"
+      android:id="@+id/bookmark_style"
+      >
+  <LinearLayout 
+      android:layout_weight="0.95"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    
+    <Button
+        android:id="@+id/bookmark_title_button"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:text="Title"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/bookmark_url_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="url"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/bookmark_time"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="Time"
+        android:layout_marginBottom="5sp"
+        android:textSize="12sp" />
+
+   </LinearLayout> 
+
+    <Button
+        android:id="@+id/bookmark_menu_button"
+        android:layout_weight="0.05"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10sp"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/icons_menu_vertical" />
+
+</LinearLayout>
+
+

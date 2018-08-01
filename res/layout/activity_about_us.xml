@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffd100"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:background="@android:color/holo_blue_light" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/black"
+            android:src="@drawable/acerc_logo" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/aboutus_developtedby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_weight="0.07"
+        android:text="Developed by :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/about_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="Er. Rajendra Singh \nEr. Krishna RadhaKrishna \nEr. Rishabh Raj"
+        android:textSize="20sp" />
+
+</LinearLayout>

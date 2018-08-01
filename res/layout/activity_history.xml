@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/puzzleheadmy"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button_historyclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="History_clear"
+        android:text="Clear History"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/searchView1" >
+
+        <LinearLayout
+            android:id="@+id/history_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp" >
+
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</FrameLayout>
