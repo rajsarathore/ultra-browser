@@ -1,3 +1,2 @@
 # ultra-browser
-This is Android application.
-Anyone can use this for practice purpose.
+#This is dummy Android application which can be used to understanding the basic browser functionality i.e. surfing and downloading the data from internet.
